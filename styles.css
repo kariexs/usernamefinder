@@ -1,0 +1,128 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    margin: 0;
+    padding: 0;
+    color: #e0e0e0;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    z-index: 2;
+}
+
+h1 {
+    text-align: center;
+    color: #ff5722;
+    font-size: 2.5em;
+    letter-spacing: 1px;
+}
+a {
+    color: inherit; /* Baðlantý rengini normal metinle ayný yap */
+    text-decoration: none; /* Alt çizgiyi kaldýr */
+}
+
+    a:hover {
+        text-decoration: underline; /* Üzerine gelindiðinde altý çizili olsun */
+    }
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+label {
+    font-size: 16px;
+    color: #b0b0b0;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    padding: 12px;
+    font-size: 16px;
+    width: 80%;
+    margin-bottom: 10px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    background-color: #333;
+    color: #fff;
+}
+
+button {
+    padding: 12px 20px;
+    font-size: 16px;
+    background-color: #ff5722;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+    button:hover {
+        background-color: #ff3d00;
+    }
+
+.repo-info {
+    margin-top: 30px;
+    color: #e0e0e0;
+}
+
+    .repo-info h2 {
+        font-size: 2em;
+        color: #ff5722;
+    }
+
+    .repo-info p {
+        font-size: 16px;
+        margin: 8px 0;
+    }
+
+    .repo-info strong {
+        color: #ff9800;
+    }
+
+    .repo-info a {
+        color: #ff5722;
+        text-decoration: none;
+    }
+.error-message {
+    color: #ff3d00;
+    background-color: #1e1e1e;
+    padding: 10px;
+    border: 1px solid #ff3d00;
+    border-radius: 4px;
+}
+
+        .repo-info a:hover {
+            text-decoration: underline;
+        }
+
+a {
+    color: inherit; /* Baðlantý rengini normal metinle ayný yap */
+    text-decoration: none; /* Alt çizgiyi kaldýr */
+}
+
+    a:hover {
+        color: #ff5722; /* Üzerine gelindiðinde renk deðiþsin */
+        text-decoration: underline; /* Üzerine gelindiðinde altý çizili olsun */
+    }
+
+
+#particles-js {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
